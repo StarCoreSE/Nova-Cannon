@@ -24,14 +24,14 @@
         <Component Subtype="LargeTube" Count="1200" />
         <Component Subtype="MetalGrid" Count="650" />
         <Component Subtype="Construction" Count="14000" />
-        <Component Subtype="SteelPlate" Count="3000" />
+        <Component Subtype="SteelPlate" Count="8000" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
       </BuildProgressModels>
       <BlockPairName>Nova</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>320</BuildTimeSeconds>
+      <BuildTimeSeconds>340</BuildTimeSeconds>
       <WeaponDefinitionId Subtype="Nova" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="1.0" StartY="13.0" EndX="4.0" EndY="27.0" PropertiesMask="2" />

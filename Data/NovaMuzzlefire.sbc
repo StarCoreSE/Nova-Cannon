@@ -232,12 +232,12 @@
                       </Key>
                       <Key>
                         <Time>0.0218384974</Time>
-                        <ValueFloat>6</ValueFloat>
+                        <ValueFloat>1</ValueFloat>
                         <Value2D />
                       </Key>
                       <Key>
                         <Time>0.9964311</Time>
-                        <ValueFloat>18</ValueFloat>
+                        <ValueFloat>30</ValueFloat>
                         <Value2D />
                       </Key>
                       <Key>
@@ -251,7 +251,7 @@
               </Keys>
             </Property>
             <Property AnimationType="Const" Name="Life" Type="Float">
-              <ValueFloat>3</ValueFloat>
+              <ValueFloat>5</ValueFloat>
             </Property>
             <Property AnimationType="Const" Name="Soft particle distance scale" Type="Float">
               <ValueFloat>2</ValueFloat>
@@ -369,7 +369,7 @@
               <Keys>
                 <Key>
                   <Time>0.0264900662</Time>
-                  <ValueFloat>6</ValueFloat>
+                  <ValueFloat>10</ValueFloat>
                   <Value2D />
                 </Key>
               </Keys>
@@ -1120,12 +1120,12 @@
                       </Key>
                       <Key>
                         <Time>0.9964311</Time>
-                        <ValueFloat>6</ValueFloat>
+                        <ValueFloat>8</ValueFloat>
                         <Value2D />
                       </Key>
                       <Key>
                         <Time>1</Time>
-                        <ValueFloat>5</ValueFloat>
+                        <ValueFloat>10</ValueFloat>
                         <Value2D />
                       </Key>
                     </Keys>
@@ -1167,7 +1167,7 @@
               <ValueBool>true</ValueBool>
             </Property>
             <Property AnimationType="Const" Name="VolumetricLight" Type="Bool">
-              <ValueBool>false</ValueBool>
+              <ValueBool>true</ValueBool>
             </Property>
             <Property AnimationType="Const" Name="Target coverage" Type="Float">
               <ValueFloat>1</ValueFloat>
@@ -1543,12 +1543,12 @@
                       </Key>
                       <Key>
                         <Time>0.003136435</Time>
-                        <ValueFloat>2</ValueFloat>
+                        <ValueFloat>3</ValueFloat>
                         <Value2D />
                       </Key>
                       <Key>
                         <Time>0.9964311</Time>
-                        <ValueFloat>3</ValueFloat>
+                        <ValueFloat>6</ValueFloat>
                         <Value2D />
                       </Key>
                       <Key>
@@ -1657,12 +1657,12 @@
                         <Value2D />
                       </Key>
                       <Key>
-                        <Time>0.33</Time>
+                        <Time>0.333333343</Time>
                         <ValueFloat>1</ValueFloat>
                         <Value2D />
                       </Key>
                       <Key>
-                        <Time>0.66</Time>
+                        <Time>0.6666667</Time>
                         <ValueFloat>1</ValueFloat>
                         <Value2D />
                       </Key>
