@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+        <SubtypeId>NovaCannon</SubtypeId>
+      </Id>
+      <DisplayName>Nova Cannon</DisplayName>
+      <Icon>Textures\icons\NovaCannonThumb.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="6" z="28" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Scene.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="4000" />
+        <Component Subtype="GravityGenerator" Count="200" />
+        <Component Subtype="Computer" Count="120" />
+        <Component Subtype="SmallTube" Count="1060" />
+        <Component Subtype="Motor" Count="1080" />
+        <Component Subtype="LargeTube" Count="1200" />
+        <Component Subtype="MetalGrid" Count="650" />
+        <Component Subtype="Construction" Count="14000" />
+        <Component Subtype="SteelPlate" Count="3000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+      </BuildProgressModels>
+      <BlockPairName>Nova</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>320</BuildTimeSeconds>
+      <WeaponDefinitionId Subtype="Nova" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="1.0" StartY="13.0" EndX="4.0" EndY="27.0" PropertiesMask="2" />
+      </MountPoints>
+      <IsAirTight>false</IsAirTight>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <Upgrades></Upgrades>
+    </Definition>
+
+
+  </CubeBlocks>
+  <BlueprintClassEntries>
+   
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeGatlingTurret/PDCTurretLB" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="LargeGatlingTurret/PDCTurretSB" />
+    <Entry Class="Ammo" BlueprintSubtypeId="DeU_25x184mm" />
+  </BlueprintClassEntries>
+</Definitions>
